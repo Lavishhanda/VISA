@@ -11,3 +11,36 @@ watching the beautiful sunset at the Riverside, will be put in a tool that guide
 the future international students by the effort of a click.
 
 <b>Technology Stack</b>
+
+For development
+
+1. IBM Watson
+2. Microsoft Azure
+3. Django
+
+For front-end
+1. HTML
+2. CSS
+3. Bootstrap
+4. Javascript
+
+<b>Demonstration of VISA (QnA)</b>
+
+![ezgif com-video-to-gif(1)](https://user-images.githubusercontent.com/16416130/74623165-8f60c880-5111-11ea-8675-3382757f67fe.gif)
+
+
+<b>Demonstration of VISA (admin access)</b>
+
+![ezgif com-video-to-gif(2)](https://user-images.githubusercontent.com/16416130/74624661-5a577480-5117-11ea-9507-399252438e28.gif)
+
+
+<b>Project Development Process</b>
+
+1. Secret Admin key identification leading to the admin dialog flow
+
+2. Webhook API call from IBM Watson to the application hosted on Microsoft Azure
+
+3. IBM Watson used as Software as a Service (SaaS)
+
+4. Microsoft Azure used as Platform as a Service (PaaS)
+
