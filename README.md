@@ -9,3 +9,5 @@ mates. All the processes we went through, from applying to the University of
 Windsor to coming to Canada, from experiencing the Canadian culture to
 watching the beautiful sunset at the Riverside, will be put in a tool that guides
 the future international students by the effort of a click.
+
+<b>Technology Stack</b>
