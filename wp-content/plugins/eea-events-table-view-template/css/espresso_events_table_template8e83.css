@@ -1,0 +1,40 @@
+/* -------------------------------------------------------------------------
+ * Event Espresso Events_Table_Template Stylesheet
+ * (c) 2014 Event Espresso
+ * -------------------------------------------------------------------------*/
+
+/*
+General Styles
+---------------------------------------------------------------------------------------------------- */
+
+#ee_filter_table ul,
+#ee_filter_table ul > li,
+.ee-table-view-datetime-list,
+.ee-table-view-datetime-list li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#ee_filter_table ul > li:before,
+.ee-table-view-datetime-list li:before {
+    content: '';
+    content: none;
+    margin: 0;
+}
+
+
+/* Media Query for screens smaller then 768px (iPad portrait)
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 600px) and (min-width: 481px) {
+}
+
+@media only screen and (max-width: 540px) and (min-width: 480px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
