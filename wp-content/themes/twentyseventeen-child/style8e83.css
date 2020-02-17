@@ -1,0 +1,122 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: https://wordpress.org/themes/twentyseventeen-child/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen-child
+Template: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.site-info { display: none; }
+
+.site-description {
+	display:none;
+}
+#content {
+   padding-top: 0px;
+}
+
+.site-branding {
+  padding: 0.5em;
+}
+
+.site-header {
+  background-color: #005596;
+}
+
+.site-title,
+.site-title a {
+ color: #FFCE00;
+ text-transform: none;
+ letter-spacing: 0.02em;
+}
+
+.site-description {
+	/* color: #58585B; */
+    color: white;
+}
+
+h1 { 
+  font-weight: 600;
+  font-size: 3rem !important;
+}
+
+.panel-content .wrap {
+  padding-top: 0px;
+}
+
+/* wider wrapper in large screens */
+@media screen and (min-width: 48em) {
+ .wrap {
+    max-width: 1000px !important;
+  }
+}
+
+button.menu-toggle {
+    visibility: hidden;
+    height: 0px;
+}
+
+body.page:not(.twentyseventeen-front-page) .entry-title {
+   text-transform: none;
+   letter-spacing: 0.0em;
+   color: #005596;
+   padding-top: 20px;
+}
+
+.edit-link {
+  display: none;
+}
+
+.page.page-one-column .entry-header {
+  margin-bottom: 0px;
+}
+
+.page-header h1:first-child, h1.entry-title {
+   text-transform: none;
+   letter-spacing: 0.0em;
+   color: #005596;
+   padding-top: 20px;
+   margin-bottom: 0px;
+}
+
+.page-header {
+  margin-bottom: 0px !important;
+  padding-bottom: 10px !important;
+}
+
+.no-tkt-slctr-ticket-dv {
+  background-color: lightyellow;
+}
+
+.sk-button {
+	background-color: #222;
+	border: 0;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 800;
+	line-height: 1;
+	padding: 1em 2em;
+	text-shadow: none;
+	-webkit-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+.sk-button:hover {
+  background-color: #ffce00;
+}
